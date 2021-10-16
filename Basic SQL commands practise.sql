@@ -57,8 +57,7 @@ CREATE TABLE `table`
  `first name` VARCHAR(30)
 );
 
--- PROCESSLIST  (doubt: I am working on localhost:- 3306 why am i getting results for different localhost as well )
-SELECT * FROM information_schema.PROCESSLIST ORDER BY INFO DESC, TIME DESC;
+
 
 
 
