@@ -51,7 +51,7 @@ GRANT SELECT, INSERT, UPDATE ON mydb.* TO 'user2'@'localhost';
 GRANT ALL ON *.* TO 'user2'@'localhost' WITH GRANT OPTION;
 -- *.* targets all databases and tables
 
--- back-tick (``)delimiters are used with words like table and first
+-- back-tick (``)delimiters are used with words like reserved words (table) and column names with space between them like (first name)
 CREATE TABLE `table`
 ( 
  `first name` VARCHAR(30)
